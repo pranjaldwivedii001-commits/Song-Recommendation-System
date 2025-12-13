@@ -25,8 +25,9 @@ if st.button('Recommend'):
     for i in recomendations:
         st.write(i)
 
-git add .
+git add 
 git commit -m
   git push
+
 
 

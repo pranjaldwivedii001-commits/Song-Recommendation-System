@@ -25,9 +25,6 @@ if st.button('Recommend'):
     for i in recomendations:
         st.write(i)
 
-git songs/song.pkl
-git commit -m
-  git push
 
 
 

@@ -24,10 +24,11 @@ if st.button('Recommend'):
     recomendations = recommend(song_name)
     for i in recomendations:
         st.write(i)
-
+git status
 git add 
 git commit -m
   git push
+
 
 
 

@@ -12,7 +12,7 @@ def recommend(songs):
     recommended_song.append(sing.iloc[i[0]]['song'])
   return recommended_song
 
-song_list = pickle.load(open('../song.pkl','rb'))
+song_list = pickle.load(open('song.pkl','rb'))
 sing = pd.DataFrame(song_list)
 st.title('Song Recommend Model')
 cs = pickle.load(open('cs.pkl','rb'))
@@ -25,3 +25,6 @@ if st.button('Recommend'):
     for i in recomendations:
         st.write(i)
 
+git add songs/song.pkl
+git commit -m 
+git push

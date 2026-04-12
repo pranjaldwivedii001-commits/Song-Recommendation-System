@@ -1,12 +1,12 @@
-# Songs
-Live Demo 
+# Songs Recommendation System
+Live Demo :  
 https://songsuggesttt.streamlit.app/
 
-Features
+Features :
 Recomend songs based on user input 
 Interactive UI using Streamlit
 
-Tech Stack
+Tech Stack:
 Python
 Pandas
 CountVectoriztion

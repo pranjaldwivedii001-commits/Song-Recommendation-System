@@ -7,7 +7,7 @@ Recomend songs based on user input
 #Interactive UI using Streamlit
 
 🔎Tech Stack :
-#Python
+# Python
 Pandas
 CountVectoriztion
 

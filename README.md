@@ -6,7 +6,7 @@ https://songsuggesttt.streamlit.app/
 Recomend songs based on user input 
 Interactive UI using Streamlit
 
-🔎Tech Stack:
+🔎Tech Stack :
 Python
 Pandas
 CountVectoriztion

@@ -42,13 +42,7 @@ Check out the live Streamlit application here: [Song Suggest App](https://songsu
 *   **pickle**: For serializing and deserializing Python objects (saving the model).
 *   **Streamlit**: (Implied by the live app link) For deploying the interactive web application.
 
-## Usage
-
-1.  **Run the Jupyter Notebook/Colab:**
-    Open the provided `.ipynb` file in Jupyter Notebook or Google Colab.
-2.  **Execute all cells:**
-    Run all the cells to process the data, build the similarity matrix, and define the `Recommend` function.
-3.  **Get recommendations:**
+**Get recommendations:**
     Use the `Recommend()` function with a song title from your dataset.
 
     ```python
@@ -64,11 +58,3 @@ If You Love Me
 I Love America
 Falling In Love With Love
 ```
-
-## Future Enhancements
-
-*   **Improve Feature Extraction**: Experiment with TF-IDF, Word Embeddings (e.g., Word2Vec, GloVe), or transformer models (e.g., BERT) for richer text representations.
-*   **Hybrid Recommendation**: Combine lyrical similarity with other factors like artist, genre, tempo, or user listening history.
-*   **User Interface**: Develop a more interactive and visually appealing user interface.
-*   **Scalability**: Optimize the system for larger datasets and faster similarity calculations.
-*   **Performance Evaluation**: Implement metrics to evaluate the quality of recommendations.

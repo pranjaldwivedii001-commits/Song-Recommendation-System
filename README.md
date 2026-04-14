@@ -7,11 +7,6 @@
 - Recomend songs based on user input  
 - Interactive UI using Streamlit
 
-# 🔎Tech Stack :
-- Python
-- Pandas
-- CountVectoriztion
-
 ## Project Overview
 
 This project implements a basic song recommendation system that suggests songs based on the similarity of their lyrical content. By analyzing the text of song lyrics, the system identifies and recommends songs that share common themes, moods, or vocabulary with a given input song.
@@ -19,16 +14,6 @@ This project implements a basic song recommendation system that suggests songs b
 ### Deployed Application
 
 Check out the live Streamlit application here: [Song Suggest App](https://songsuggesttt.streamlit.app/)
-
-## Table of Contents
-
-*   [Features](#features)
-*   [How it Works](#how-it-works)
-*   [Technologies Used](#technologies-used)
-*   [Setup and Installation](#setup-and-installation)
-*   [Usage](#usage)
-*   [Example Output](#example-output)
-*   [Future Enhancements](#future-enhancements)
 
 ## Features
 
@@ -56,27 +41,6 @@ Check out the live Streamlit application here: [Song Suggest App](https://songsu
 *   **nltk**: For natural language processing tasks, specifically `PorterStemmer` for text stemming.
 *   **pickle**: For serializing and deserializing Python objects (saving the model).
 *   **Streamlit**: (Implied by the live app link) For deploying the interactive web application.
-
-## Setup and Installation
-
-To run this project locally, follow these steps:
-
-1.  **Clone the repository:**
-    ```bash
-    git clone <your-repo-link>
-    cd <your-repo-name>
-    ```
-2.  **Install the required libraries:**
-    ```bash
-    pip install numpy pandas scikit-learn nltk
-    ```
-3.  **Download NLTK data (if not already present):**
-    You might need to download `punkt` and `stopwords` data for NLTK. This can be done within a Python script or interactively:
-    ```python
-    import nltk
-    nltk.download('punkt')
-    nltk.download('stopwords')
-    ```
 
 ## Usage
 
